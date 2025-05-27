@@ -1,0 +1,32 @@
+[
+  {
+    "title": "お問い合わせ",
+    "text": "フロンガスの種類・数量・納期などのご要望をお聞かせください。",
+    "image": "/service/flow/inquiry.svg"
+  },
+  {
+    "title": "現地調査・ヒアリング",
+    "text": "設備の仕様確認と最適なフロンガスの選定を行います。",
+    "image": "/service/flow/pre-inspection.svg"
+  },
+  {
+    "title": "御見積提出",
+    "text": "フロンガスの種類・数量に応じた詳細なお見積りを提出いたします。",
+    "image": "/service/flow/estimation.svg"
+  },
+  {
+    "title": "フロンガス納品",
+    "text": "ご指定の場所・日時にフロンガスを安全に納品いたします。",
+    "image": "/service/flow/construction.svg"
+  },
+  {
+    "title": "納品書・証明書発行",
+    "text": "納品書および品質証明書等の必要書類を発行いたします。",
+    "image": "/service/flow/middle-inspection.svg"
+  },
+  {
+    "title": "アフターサポート",
+    "text": "納品後のご質問や追加のご注文にも迅速に対応いたします。",
+    "image": "/service/flow/after-support.svg"
+  }
+]

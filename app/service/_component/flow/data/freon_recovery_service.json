@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Consultation & Inquiry",
+    "title_ja": "お問い合わせ・ご相談",
+    "text": "We welcome inquiries and consultations for refrigerant gas regeneration and destruction services. Please share details about the type and quantity of recovered refrigerant gas.",
+    "text_ja": "フロンガス再生・破壊処理のご依頼やご相談を受け付けます。回収済みフロンガスの種類・量などをお聞かせください。",
+    "image": "/service/flow/inquiry.svg"
+  },
+  {
+    "title": "Gas Reception & Quality Inspection",
+    "title_ja": "フロンガス受入・品質検査",
+    "text": "We receive recovered refrigerant gas and conduct comprehensive quality inspections including type identification, purity analysis, and contamination assessment.",
+    "text_ja": "回収されたフロンガスを受け入れ、種類・純度・汚染度などの詳細な品質検査を実施いたします。",
+    "image": "/service/flow/pre-inspection.svg"
+  },
+  {
+    "title": "Treatment Method Selection & Quotation",
+    "title_ja": "処理方法決定・お見積り提出",
+    "text": "Based on inspection results, we determine the optimal treatment method (regeneration or destruction) and provide a detailed quotation.",
+    "text_ja": "検査結果をもとに最適な処理方法（再生または破壊）を決定し、詳細なお見積りを提出いたします。",
+    "image": "/service/flow/estimation.svg"
+  },
+  {
+    "title": "Regeneration Process",
+    "title_ja": "再生処理工程",
+    "text": "Reusable refrigerant gas undergoes impurity removal and purification to produce high-quality regenerated refrigerant gas.",
+    "text_ja": "再利用可能なフロンガスは不純物除去・精製を行い、高品質な再生フロンガスとして処理いたします。",
+    "image": "/service/flow/construction.svg"
+  },
+  {
+    "title": "Destruction Process",
+    "title_ja": "破壊処理工程",
+    "text": "Non-reusable refrigerant gas is processed by certified destruction facilities through high-temperature combustion for complete decomposition and neutralization.",
+    "text_ja": "再利用困難なフロンガスは認定破壊業者にて高温燃焼による完全な分解・無害化処理を行います。",
+    "image": "/service/flow/explanation.svg"
+  },
+  {
+    "title": "Quality Verification & Final Inspection",
+    "title_ja": "品質確認・最終検査",
+    "text": "We conduct final quality inspections including verification of regenerated gas quality and confirmation of destruction process completion.",
+    "text_ja": "再生フロンガスの品質確認、破壊処理の完了確認など、最終的な品質検査を実施いたします。",
+    "image": "/service/flow/report.svg"
+  },
+  {
+    "title": "Certificate Issuance & Delivery",
+    "title_ja": "証明書発行・お引き渡し",
+    "text": "We issue necessary documentation including regeneration and destruction certificates, and provide comprehensive processing reports.",
+    "text_ja": "再生証明書・破壊証明書等の必要書類を発行し、処理結果をご報告いたします。",
+    "image": "/service/flow/fire-station.svg"
+  },
+  {
+    "title": "After-Sales Support",
+    "title_ja": "アフターサポート",
+    "text": "We provide guidance on certificate storage and ongoing consultation for continuous refrigerant gas processing needs.",
+    "text_ja": "証明書の保管方法のご案内や、継続的なフロンガス処理のご相談にも対応いたします。",
+    "image": "/service/flow/copy.svg"
+  }
+]

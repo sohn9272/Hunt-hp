@@ -1,0 +1,42 @@
+[
+  {
+    "title": "お問い合わせ",
+    "text": "フロンガス回収・処理工事のご依頼やご相談を受け付けます。機器の種類・台数・設置場所などをお聞かせください。",
+    "image": "/service/flow/inquiry.svg"
+  },
+  {
+    "title": "現地調査・ヒアリング",
+    "text": "対象となるエアコンや冷凍機器の現状を確認し、回収方法や処理方法についてご説明いたします。",
+    "image": "/service/flow/pre-inspection.svg"
+  },
+  {
+    "title": "御見積提出",
+    "text": "機器の台数・フロンガスの種類・回収量に応じた詳細なお見積りを作成・提出いたします。",
+    "image": "/service/flow/estimation.svg"
+  },
+  {
+    "title": "フロンガス回収作業",
+    "text": "第1種フロン類回収業者として、法令に基づき適切にフロンガスを回収いたします。",
+    "image": "/service/flow/construction.svg"
+  },
+  {
+    "title": "回収量確認・記録",
+    "text": "回収したフロンガスの量を正確に計測し、適切な記録管理を行います。",
+    "image": "/service/flow/middle-inspection.svg"
+  },
+  {
+    "title": "処理・破壊工程",
+    "text": "回収したフロンガスを認定業者にて適切に処理・破壊し、環境負荷を最小限に抑えます。",
+    "image": "/service/flow/internal-inspection.svg"
+  },
+  {
+    "title": "証明書発行・お引渡し",
+    "text": "回収証明書・処理証明書等の必要書類を発行し、お客様にお渡しいたします。",
+    "image": "/service/flow/completion.svg"
+  },
+  {
+    "title": "アフターサポート",
+    "text": "書類の保管方法のご案内や、今後のフロンガス関連のご相談にも対応いたします。",
+    "image": "/service/flow/after-support.svg"
+  }
+]

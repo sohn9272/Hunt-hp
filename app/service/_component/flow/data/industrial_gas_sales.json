@@ -1,0 +1,32 @@
+[
+  {
+    "title": "お問い合わせ",
+    "text": "必要なガスの種類・純度・容量・納期などのご要望をお聞かせください。",
+    "image": "/service/flow/inquiry.svg"
+  },
+  {
+    "title": "現地調査・ヒアリング",
+    "text": "用途に応じた最適なガス種類と供給方法をご提案いたします。",
+    "image": "/service/flow/pre-inspection.svg"
+  },
+  {
+    "title": "御見積提出",
+    "text": "ガスの種類・純度・容量に応じた詳細なお見積りを提出いたします。",
+    "image": "/service/flow/estimation.svg"
+  },
+  {
+    "title": "産業用ガス納品",
+    "text": "高圧ガス保安法に基づき、安全に配送・納品いたします。",
+    "image": "/service/flow/construction.svg"
+  },
+  {
+    "title": "納品書・証明書発行",
+    "text": "納品書および成分分析表等の必要書類を発行いたします。",
+    "image": "/service/flow/middle-inspection.svg"
+  },
+  {
+    "title": "アフターサポート",
+    "text": "継続的な供給体制の構築や技術的なサポートを提供いたします。",
+    "image": "/service/flow/after-support.svg"
+  }
+]
