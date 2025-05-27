@@ -67,7 +67,7 @@ export default function FirstView() {
           <br />
           Your Life&apos;s Foundation.
         </h2>
-        <p className="mt-2 lg:mt-6">「いつも」と「もしも」を守る、確かな備え。</p>
+        <p className="mt-2 lg:mt-6">次世代に繋ぐ、クリーンガステクノロジー</p>
       </div>
     </div>
   );
