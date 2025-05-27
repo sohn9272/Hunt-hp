@@ -45,16 +45,26 @@ export default async function ColumnPage({ searchParams }: Props) {
   const currentPage = Number(resolvedSearchParams.page || '1');
   const offset = (currentPage - 1) * ITEMS_PER_PAGE;
 
-  const response = await client.get({
-    endpoint: 'columns',
-    queries: {
-      offset,
-      limit: ITEMS_PER_PAGE,
-    },
-  });
+  let data: ColumnItem[] = [];
+  let totalPages = 0;
 
-  const data: ColumnItem[] = response.contents || [];
-  const totalPages = Math.ceil(response.totalCount / ITEMS_PER_PAGE);
+  try {
+    const response = await client.get({
+      endpoint: 'columns',
+      queries: {
+        offset,
+        limit: ITEMS_PER_PAGE,
+      },
+    });
+
+    data = response.contents || [];
+    totalPages = Math.ceil(response.totalCount / ITEMS_PER_PAGE);
+  } catch (error) {
+    console.error('Failed to fetch columns:', error);
+    // microCMSの設定が不完全な場合はデフォルトで空配列を返す
+    data = [];
+    totalPages = 0;
+  }
 
   const renderPaginationNumbers = () => {
     const pages = [];

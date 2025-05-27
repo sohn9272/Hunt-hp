@@ -315,13 +315,14 @@ const refrigerantDetails: Record<string, RefrigerantDetail> = {
 };
 
 interface PageProps {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 }
 
-export default function RefrigerantDetailPage({ params }: PageProps) {
-  const refrigerant = refrigerantDetails[params.id];
+export default async function RefrigerantDetailPage({ params }: PageProps) {
+  const { id } = await params;
+  const refrigerant = refrigerantDetails[id];
 
   if (!refrigerant) {
     notFound();

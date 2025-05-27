@@ -6,6 +6,18 @@ import SectionTitle from '../../_components/SectionTitle';
 import { ScrollAnimation } from '@/components/ui/scroll-animation';
 import '@/app/styles/microcms.css';
 
+type ColumnDetail = {
+  id: string;
+  title: string;
+  image?: {
+    url: string;
+    height: number;
+    width: number;
+  };
+  text: string;
+  public_at: string;
+};
+
 type Props = {
   params: Promise<{
     column_id: string;
@@ -21,10 +33,25 @@ export default async function ColumnDetailPage({
 }: Props) {
   const resolvedParams = await params;
   const resolvedSearchParams = await searchParams;
-  const data = await client.get({
-    endpoint: 'columns',
-    contentId: resolvedParams.column_id,
-  });
+
+  let data: ColumnDetail;
+
+  try {
+    data = await client.get({
+      endpoint: 'columns',
+      contentId: resolvedParams.column_id,
+    });
+  } catch (error) {
+    console.error('Failed to fetch column:', error);
+    // microCMSの設定が不完全な場合はデフォルトデータを返す
+    data = {
+      id: 'default',
+      title: 'コラムが見つかりません',
+      text: 'このコラムは現在利用できません。',
+      public_at: new Date().toISOString(),
+      image: undefined,
+    };
+  }
 
   const backUrl = resolvedSearchParams.from
     ? `/column?page=${resolvedSearchParams.from}`

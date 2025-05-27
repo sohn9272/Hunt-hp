@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import ServiceSectionTitle from './ServiceSectionTitle';
 import { ScrollAnimation } from '@/components/ui/scroll-animation';
 import {

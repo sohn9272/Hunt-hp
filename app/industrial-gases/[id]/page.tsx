@@ -383,13 +383,14 @@ const industrialGasDetails: Record<string, IndustrialGasDetail> = {
 };
 
 interface PageProps {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 }
 
-export default function IndustrialGasDetailPage({ params }: PageProps) {
-  const gas = industrialGasDetails[params.id];
+export default async function IndustrialGasDetailPage({ params }: PageProps) {
+  const { id } = await params;
+  const gas = industrialGasDetails[id];
 
   if (!gas) {
     notFound();
